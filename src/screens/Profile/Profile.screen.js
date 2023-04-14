@@ -20,7 +20,7 @@ const Home = ({ navigation }) => {
           <Icon name={'ios-settings'} size={100} color={'green'} />
           <View>
             <TouchableOpacity
-              onPress={() => Alert.alert('this is Profile Screen')}
+              onPress={() => Alert.alert('this is Profile Screen View')}
               style={styles.buttonStyle}>
               <Text style={styles.text}>
                 this is{' '}
@@ -28,7 +28,7 @@ const Home = ({ navigation }) => {
                   {' '}
                   PROFILE{' '}
                 </Text>{' '}
-                screen
+                screen view
               </Text>
             </TouchableOpacity>
           </View>
